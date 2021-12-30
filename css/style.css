@@ -1,3 +1,68 @@
+@import "reset.css";
+
+html body {
+    height: 100%;
+    background-repeat : no-repeat;
+    background-size : cover;
+    position: relative;
+}
+
 .hidden {
     display:none;
+}
+
+html body img {
+    width:100vw;
+    height:100vh;
+}
+#login-form {
+    position: absolute;
+    top:300px;
+    left: 400px;
+}
+
+#greeting {
+    position: absolute;
+    top:300px;
+    left: 400px;
+    color: white;
+    font-size: 80px;
+}
+
+#clock {
+    position: absolute;
+    top:20px;
+    right: 100px;
+    color: white;
+    font-size: 50px; 
+
+}
+#weather {
+    position: absolute;
+    top:20px;
+    left: 50px;
+    color: white;
+    font-size: 20px; 
+}
+#todo-form {
+    position: absolute;
+    top:350px;
+    right: 100px;
+    color: white;
+    font-size: 30px; 
+}
+#todo-list{
+    position: absolute;
+    top:400px;
+    left: 960px;
+    color: white;
+    font-size: 20px; 
+
+}
+#quote {
+    position: absolute;
+    bottom:60px;
+    left: 150px;
+    color: white;
+    font-size: 20px; 
 }
